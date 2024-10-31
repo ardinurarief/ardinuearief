@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Sederhana</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+      /* Reset style dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e8e5e2;
+    padding: 20px;
+}
+
+/* Gaya untuk header */
+header {
+    text-align: center;
+    padding: 5px;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+header p {
+    font-size: 1em;
+}
+
+.gambar-artikel {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Gaya untuk konten utama */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* Gaya untuk artikel */
+article h2 {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    background-color: #72af87;
+    border-radius: 15px;
+}
+
+article h3 {
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.sub-judul {
+    color: black;
+    background-color: skyblue;
+    padding: 15px;
+    font-size: 1.1em;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #333;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tugas Website</h1>
+        <p>Dipublikasikan Pada Tanggal 29 Oktober 2024</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>Bahasa Pemrograman C++</h2>
+            <p class="date">Dibuat oleh Ardi Nur Arief</p>
+            <img src="gambar-web1.jpg" alt="Gambar Artikel" class="gambar-artikel">
+            <p>
+                C++ adalah bahasa pemrograman yang dikembangkan sebagai perpanjangan dari bahasa C. Dikembangkan oleh Bjarne Stroustrup pada awal 1980-an, C++ menawarkan fitur pemrograman berorientasi objek, yang tidak ada di C, sehingga sangat populer untuk pengembangan perangkat lunak skala besar, game, aplikasi desktop, hingga sistem operasi.
+            </p>
+            <h2>Beberapa Konsep Inti dalam C++</h2>
+            <p>
+              <b>1</b>. Pemrograman Berorientasi Objek (OOP): Mendukung konsep seperti class, object, inheritance, polymorphism, dan encapsulation, memungkinkan kode lebih terstruktur dan modular.
+            </p>
+            <p>
+              <b>2</b>. Tipe Data dan Variabel: Seperti C, C++ memiliki tipe data dasar seperti int, float, double, char, serta tipe data pengguna (user-defined types) seperti struct dan class.
+            </p>
+            <p>
+              <b>3</b>. Fungsi dan Prosedur: C++ mendukung pembuatan fungsi-fungsi untuk memecah program besar menjadi bagian-bagian yang lebih kecil, termasuk <i>function overloading.</i>
+            </p>
+            <p>
+              <b>4</b>. Pengelolaan Memori: Menggunakan pointer dan reference untuk mengelola memori secara efisien. Selain itu, mendukung dynamic memory allocation menggunakan new dan delete.
+            </p>
+            <p>
+              <b>5</b>. Library Standard Template (STL): Menyediakan struktur data dan algoritma yang siap digunakan, seperti vector, list, queue, map, dan lain-lain, untuk membantu pengembang dalam mengelola data.
+            </p>
+            <p>
+              <b>6</b>. Kecepatan dan Efisiensi: Karena mendekati bahasa mesin, C++ sangat cepat dan efisien, sehingga sering digunakan dalam pengembangan perangkat lunak yang memerlukan performa tinggi.
+            </p>
+             <h2>Contoh Bahasa Pemrograman C++</h2>
+            <img src="gambar-web2.jpg" alt="Gambar Artikel" class="gambar-artikel">
+            <p>
+              #include <iostream>
+              using namespace std;
+
+              int main() {
+              cout << "Hello, World!" << endl;
+              return 0;
+              }
+
+              Kode di atas akan mencetak             "Hello, World!" ke layar.             #include <iostream> adalah             library standar untuk                 input-output, dan cout                digunakan untuk output ke             layar.
+
+              C++ sering digunakan dalam             berbagai aplikasi yang                memerlukan performa tinggi             dan kontrol penuh terhadap             hardware, termasuk game,              software engineering,                 sistem embedded, serta                aplikasi ilmiah.
+            </p>
+            <h2>Struktur Program C++</h2>
+            <p>
+              <b>Header Files</b>
+                Mengimpor pustaka atau file pendukung, misalnya #include <iostream>.Namespace: using namespace std; untuk menghindari konflik nama dalam kode.Fungsi main(): Fungsi utama yang akan dieksekusi saat program berjalan.
+            </p>
+            <p>
+              <b>Namespace</b>
+                using namespace std; untuk menghindari konflik nama dalam kode.
+            </p>
+            <p>
+              <b>Fungsi Main</b>
+              Fungsi utama yang akan dieksekusi saat program berjalan.
+            </p>
+            <h2>Tipe Data dan Variabel</h2>
+            <p><b>Int</b> adalah angka bulat.
+            </p>
+            <p>
+              <b>Float dan Doble</b>
+              adalah angka desimal.
+            </p>
+            <p>
+              <b>Char</b>
+              adalah karakter tunggal.
+            </p>
+            <p>
+              <b>Bool</b>
+              adalah tipe data boolean true atau false.
+            </p>
+            <h2>Percabangan <i>(Control Flow)</i></h2>
+            <p>
+              Percabangan digunakan untuk membuat keputusan berdasarkan kondisi.
+            </p>
+            <p>
+              <b>If else</b>
+              untuk melakukan percabangan sederhana.
+            </p>
+            <p>
+              <b>Switch-case</b>
+              untuk percabangan dengan banyak pilihan.
+            </p>
+            <h2>Perulangan <i>(Loop)</i></h2>
+            <p>
+              <b>Foor-loop</b>
+              perulangan dengan batas yang sudah jelas.
+            </p>
+            <p>
+              <b>While-loop</b>
+              Perulangan yang bergantung pada kondisi.
+            </p>
+            <p>
+              <b>Do-while loop</b>
+              Mirip dengan while, tetapi dieksekusi setidaknya sekali.
+            </p>
+            <h2>Fungsi</h2>
+            <p>
+              Fungsi memungkinkan pemrogram untuk memecah kode menjadi bagian-bagian yang lebih kecil.
+            </p>
+            <h2>Pointer dan refrensi</h2>
+            <p>
+              Pointer adalah variabel yang menyimpan alamat memori dari variabel lain.
+            </p>
+            <p>
+               - Operator Address-of (&) digunakan untuk mendapatkan alamat variabel.
+            </p>
+            <p>
+               - Operator Dereference (*) digunakan untuk mengakses nilai di alamat tersebut.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web Artikel. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
